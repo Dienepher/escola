@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Jq8lQPcREeyIO-9tFVGR7g" name="Escola" visibility="protected">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_Jtj0YPcREeyIO-9tFVGR7g">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageMerge xmi:type="uml:PackageMerge" xmi:id="_PkL-oPcTEeyIO-9tFVGR7g"/>
+  <packagedElement xmi:type="uml:Model" xmi:id="_TBI4kPcREeyIO-9tFVGR7g" name="aluno"/>
+  <packagedElement xmi:type="uml:Model" xmi:id="_dEJOkPcREeyIO-9tFVGR7g" name="professores"/>
+  <packagedElement xmi:type="uml:Model" xmi:id="_h22IkPcREeyIO-9tFVGR7g" name="andares"/>
+  <packagedElement xmi:type="uml:Model" xmi:id="_v9AyAPcREeyIO-9tFVGR7g" name="dias letivos"/>
+  <packagedElement xmi:type="uml:Model" xmi:id="_3flyoPcREeyIO-9tFVGR7g" name="salas"/>
+  <packagedElement xmi:type="uml:Model" xmi:id="_5cRhwPcREeyIO-9tFVGR7g" name="presenças"/>
+  <packagedElement xmi:type="uml:Model" xmi:id="_7a-DEPcREeyIO-9tFVGR7g" name="materia"/>
+  <packagedElement xmi:type="uml:Model" xmi:id="_-mEGEPcREeyIO-9tFVGR7g" name="nota"/>
+  <packagedElement xmi:type="uml:Model" xmi:id="_Aa79APcSEeyIO-9tFVGR7g" name="atv.av."/>
+  <packagedElement xmi:type="uml:Model" xmi:id="_D0c2gPcSEeyIO-9tFVGR7g" name="percentual"/>
+  <packagedElement xmi:type="uml:Model" xmi:id="_F45agPcSEeyIO-9tFVGR7g" name="trimestre"/>
+  <packagedElement xmi:type="uml:Model" xmi:id="_JbpvkPcSEeyIO-9tFVGR7g" name="horarios"/>
+  <packagedElement xmi:type="uml:Model" xmi:id="_LB9mEPcSEeyIO-9tFVGR7g" name="avisos"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_2R0GAPcTEeyIO-9tFVGR7g" name="alunos" isActive="true">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_7DPNoPcTEeyIO-9tFVGR7g" name="id"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_-gMcsPcTEeyIO-9tFVGR7g" name="nome"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="__u1aEPcTEeyIO-9tFVGR7g" name="idade"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_B2hfUPcUEeyIO-9tFVGR7g" name="responsavel"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_EEhn8PcUEeyIO-9tFVGR7g" name="celular"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_FZ6tkPcUEeyIO-9tFVGR7g" name="telefone"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_IeIFcPcUEeyIO-9tFVGR7g" name="CGM"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Jz2iQPcUEeyIO-9tFVGR7g" name="CPF"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Ld8skPcUEeyIO-9tFVGR7g" name="endereco"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Pm4Q0PcUEeyIO-9tFVGR7g" name="deficiencia">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_kjueMPcUEeyIO-9tFVGR7g" name="RG"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_s2x5gPcUEeyIO-9tFVGR7g" name="dataNascimento" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_vIOXsPcUEeyIO-9tFVGR7g" name="sexualidade" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_2cHcEPcUEeyIO-9tFVGR7g" name="corOuRaca" isUnique="false"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_BIgGQPcVEeyIO-9tFVGR7g" name="professor">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_CkWZMPcVEeyIO-9tFVGR7g" name="id"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_D00ikPcVEeyIO-9tFVGR7g" name="nome"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_FfD20PcVEeyIO-9tFVGR7g" name="CPF"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Gh3XoPcVEeyIO-9tFVGR7g" name="RG"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_I9MxoPcVEeyIO-9tFVGR7g" name="titulacao"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_MetwkPcVEeyIO-9tFVGR7g" name="enderco"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ReYvkPcVEeyIO-9tFVGR7g" name="celular"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_VlvmgPcVEeyIO-9tFVGR7g" name="bloco">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_g2lBkPcVEeyIO-9tFVGR7g" name="id"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_iYtisPcVEeyIO-9tFVGR7g" name="qual"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_kv6DkPcVEeyIO-9tFVGR7g" name="materias">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_nnFsEPcVEeyIO-9tFVGR7g" name="id"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_pDYq8PcVEeyIO-9tFVGR7g" name="nome"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Pj7_oPcWEeyIO-9tFVGR7g" name="atAv"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Sxx0oPcWEeyIO-9tFVGR7g" name="notas"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_vPJpoPcVEeyIO-9tFVGR7g" name="sala">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_x2BlQPcVEeyIO-9tFVGR7g" name="id"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_y-Y7gPcVEeyIO-9tFVGR7g" name="quais"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ZPHEcPcWEeyIO-9tFVGR7g" name="dias letivos">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_c90K0PcWEeyIO-9tFVGR7g" name="id"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_iOxuIPcWEeyIO-9tFVGR7g" name="trimestre"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_mw1kEPcWEeyIO-9tFVGR7g" name="horarios"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_q1K8MPcWEeyIO-9tFVGR7g" name="avisos"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_zBOXoPcWEeyIO-9tFVGR7g" name="presenca">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_0i6M0PcWEeyIO-9tFVGR7g" name="percentual"/>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_5okxAPcUEeyIO-9tFVGR7g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5oqQkPcUEeyIO-9tFVGR7g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>
