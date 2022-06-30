@@ -61,7 +61,7 @@
   <packagedElement xmi:type="uml:Class" xmi:id="_ZPHEcPcWEeyIO-9tFVGR7g" name="dias letivos">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_c90K0PcWEeyIO-9tFVGR7g" name="id"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_iOxuIPcWEeyIO-9tFVGR7g" name="trimestre"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_mw1kEPcWEeyIO-9tFVGR7g" name="horarios"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_mw1kEPcWEeyIO-9tFVGR7g" name="hou"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_q1K8MPcWEeyIO-9tFVGR7g" name="avisos"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_zBOXoPcWEeyIO-9tFVGR7g" name="presenca">
