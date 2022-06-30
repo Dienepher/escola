@@ -61,13 +61,14 @@
   <packagedElement xmi:type="uml:Class" xmi:id="_ZPHEcPcWEeyIO-9tFVGR7g" name="dias letivos">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_c90K0PcWEeyIO-9tFVGR7g" name="id"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_iOxuIPcWEeyIO-9tFVGR7g" name="trimestre"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_mw1kEPcWEeyIO-9tFVGR7g" name="hou"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_mw1kEPcWEeyIO-9tFVGR7g" name="horario" visibility="public"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_q1K8MPcWEeyIO-9tFVGR7g" name="avisos"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_zBOXoPcWEeyIO-9tFVGR7g" name="presenca">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_0i6M0PcWEeyIO-9tFVGR7g" name="percentual"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_F-hdEPihEeyYpYTyYNvUFA" name="ghgh"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_F-hdEPihEeyYpYTyYNvUFA" name="trimestre"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Qyec8PijEey_pIaUbFSVOQ" name="secretaria"/>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_5okxAPcUEeyIO-9tFVGR7g">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5oqQkPcUEeyIO-9tFVGR7g" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>

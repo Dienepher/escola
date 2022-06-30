@@ -492,6 +492,32 @@
       <element xmi:type="uml:Class" href="Escola.uml#_F-hdEPihEeyYpYTyYNvUFA"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F-tqUfihEeyYpYTyYNvUFA" x="1120" y="260"/>
     </children>
+    <children xmi:type="notation:Shape" xmi:id="_QylxsPijEey_pIaUbFSVOQ" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Qym_0PijEey_pIaUbFSVOQ" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Qym_0fijEey_pIaUbFSVOQ" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Qym_0vijEey_pIaUbFSVOQ" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_Qynm4PijEey_pIaUbFSVOQ" type="Class_AttributeCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_Qynm4fijEey_pIaUbFSVOQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_Qynm4vijEey_pIaUbFSVOQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_Qynm4_ijEey_pIaUbFSVOQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Qynm5PijEey_pIaUbFSVOQ"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_Qynm5fijEey_pIaUbFSVOQ" type="Class_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_Qynm5vijEey_pIaUbFSVOQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_Qynm5_ijEey_pIaUbFSVOQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_Qynm6PijEey_pIaUbFSVOQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Qynm6fijEey_pIaUbFSVOQ"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_Qynm6vijEey_pIaUbFSVOQ" type="Class_NestedClassifierCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_Qynm6_ijEey_pIaUbFSVOQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_Qynm7PijEey_pIaUbFSVOQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_Qynm7fijEey_pIaUbFSVOQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Qynm7vijEey_pIaUbFSVOQ"/>
+      </children>
+      <element xmi:type="uml:Class" href="Escola.uml#_Qyec8PijEey_pIaUbFSVOQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QylxsfijEey_pIaUbFSVOQ" x="540" y="400"/>
+    </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_RV63cfcSEeyIO-9tFVGR7g" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_RV63cvcSEeyIO-9tFVGR7g"/>
     <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_RV63c_cSEeyIO-9tFVGR7g" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
