@@ -369,7 +369,7 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q1MKY_cWEeyIO-9tFVGR7g"/>
       </children>
       <element xmi:type="uml:Class" href="Escola.uml#_q1K8MPcWEeyIO-9tFVGR7g"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q1MKUfcWEeyIO-9tFVGR7g" x="-120" y="160"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q1MKUfcWEeyIO-9tFVGR7g" x="-200" y="300"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_F-tqUPihEeyYpYTyYNvUFA" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_F-u4cPihEeyYpYTyYNvUFA" type="Class_NameLabel"/>
